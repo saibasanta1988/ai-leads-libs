@@ -1,3 +1,4 @@
-def call(x){
-  retun x*x;
+resdef call(x){
+  def result= x*x
+  echo "square of $x is $result"  
 }
